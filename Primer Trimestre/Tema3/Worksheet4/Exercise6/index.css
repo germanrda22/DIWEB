@@ -1,0 +1,28 @@
+.multiplebackgrounds {
+    width: 500px;
+    height:250px;
+
+}
+
+p{
+    font-weight:bold;
+    position: absolute;
+    margin-left: 300px;
+    z-index: 2;
+}
+
+#decoration{
+    margin-top: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+#old{
+    width: 500px;
+}
+
+#ribbon{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -100px;
+}

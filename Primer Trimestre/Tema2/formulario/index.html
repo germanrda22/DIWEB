@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form>
+        <div>
+            <label for="name">Nombre </label>
+            <input type="text" name="name" id ="name"> 
+        
+            <label for="surname">Apellidos </label>
+            <input type="text" name="surname" id ="surname"> 
+        </div>
+        <br>
+        <div>
+            <label for="email">Email </label>
+            <input type="email" name="email" id ="email" placeholder="x@gmail.com"> 
+
+            <label for="pass">Contraseña </label>
+            <input type="password" name="pass" id ="pass">
+        </div>
+        <br>
+        <div>
+            <label for="tlf">Teléfono </label>
+            <input type="tel" name="phone" id ="tlf" placeholder="+34 637 62 87 27">
+        </div>
+        <br>
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" name="date">
+
+            <input type="time" name="time">
+        <br>
+        <br>
+            <input type="submit" value="Enviar">
+
+            <input type="reset" value="Restablecer">
+        </form>
+        <br>
+        <fieldset>
+            <legend>Genero</legend>
+            <div>
+                <input type="radio" name="genero" id ="radio1" value="Male">
+                <label for="radio1"> Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id ="radio2" value="Female">
+                <label for="radio2"> Femenino </label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id ="radio3" value="Other">
+                <label for="radio3"> Otro </label>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Estudios Realizados</legend>
+            <div>
+                <input type="checkbox" name="genero" id ="box1" value="eso">
+                <label for="box1"> ESO </label>
+            </div>
+            <div>
+                <input type="checkbox" name="genero" id ="box2" value="bachiller">
+                <label for="box2"> Bachiller </label>
+            </div>
+            <div>
+                <input type="checkbox" name="genero" id ="box3" value="universidad">
+                <label for="box3"> Universidad </label>
+            </div>
+            <div>
+                <input type="checkbox" name="genero" id ="box4" value="gradofp">
+                <label for="box4"> Grado FP </label>
+            </div>
+        </fieldset>
+
+        <form>
+            <input type="file" name="file">
+
+            <br>
+            <label for="num"> Cantidad </label>
+            <input type="number" name="num">
+
+            <br>
+            <input type="range" name="num" min="0" max="5">
+
+            <br>
+
+            <input type="button" onclick="alert('Formulario Finalizado!');"
+            value="Finalizar">
+        </form>
+
+        
+        
+    
+   
+</body>
+</html>

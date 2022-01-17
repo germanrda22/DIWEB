@@ -1,0 +1,26 @@
+.w{
+    color: blue;
+}
+.m{
+    color:red;
+}
+#uno, #diez{
+    font-weight: bold;
+}
+#cinco, #trece{
+    font-style: italic;
+}
+.Middlemarch{
+    float: right;
+}
+.Middlemarch li{
+    list-style-type: lower-roman;
+    padding-bottom: 2px;
+}
+
+.Twocities li{
+    list-style-type: upper-alpha;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}

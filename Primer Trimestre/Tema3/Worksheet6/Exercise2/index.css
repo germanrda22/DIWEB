@@ -1,0 +1,83 @@
+#container {
+    width: 500px; 
+    height:500px; 
+    position: relative;
+}
+.box {
+     width: 100px;
+     height: 100px;
+     background-color: red;
+     font-size: 20px;
+     position:absolute;
+     padding: 5px;
+}
+.ex01 .box {
+    left: 10px;
+    top: 10px;
+    animation-name:exercise2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    }
+.ex02 .box {
+    left: 10px;
+    top: 130px;
+    animation-name:exercise2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    }
+.ex03 .box {
+    left: 10px;
+    top: 250px;
+    animation-name:exercise2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.ex04 .box {
+    left: 10px;
+    top: 370px;
+    animation-name:exercise2;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes exercise2{
+    0% {
+        background-color: red;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+        color: black;
+        font-size: 20px;
+        transform: rotate(0deg);
+    }
+    50% {
+        background-color: purple;
+        left: 200px;
+        width: 75px;
+        height: 75px;
+        color: #666600;
+        font-size: 19px;
+        transform: rotate(135deg);
+    }
+    100% {
+        background-color: blue;
+        left: 400px;
+        width: 50px;
+        height: 50px;
+        color: yellow;
+        font-size: 18px;
+        transform: rotate(270deg);
+    }
+}

@@ -1,0 +1,19 @@
+
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: grey;
+    color: white;
+    text-align: left;
+}
+
+td:nth-child(1){
+    background-color: lightgrey;
+    color: grey;
+    text-align: right;
+    font-weight: bold;
+}

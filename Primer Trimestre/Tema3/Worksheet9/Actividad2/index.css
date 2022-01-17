@@ -1,0 +1,87 @@
+.myForm{
+    display: flex;
+}
+
+@media (max-width:567px){
+
+    body{
+        background-color: beige;
+    }
+    form{
+        display:flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        width:450px;
+    }
+    label{
+        margin-right: 5px;
+    }
+    div.input-group{
+        display:flex;
+        justify-content:space-between;
+        margin-bottom:10px;
+    }
+    /*
+    space between
+    display flex en formu, row y col
+    */
+    div.column:last-of-type{
+        margin-top:50px;
+        margin-left:30px;
+        margin-bottom:20px;
+        display:flex;
+        flex-direction: column;
+    }
+    fieldset{
+        border:none;
+        display:flex;
+        flex-direction: column;
+    
+    }
+    #submit{
+        background-color: grey;
+        color:white;
+        padding: 10px;
+    }
+    }
+    
+@media (min-width:568px){
+    body{
+        background-color: beige;
+    }
+    div.input-group{
+        display:flex;
+        justify-content:flex-end;
+        margin-bottom:10px;
+    }
+    label{
+        margin-right: 5px;
+    }
+    div.row{
+        display:flex;
+        flex-direction:row;
+    }
+    div.row:last-of-type{
+        display: flex;
+        justify-content:center;
+    }
+    div.column:last-of-type{
+        margin-top:10px;
+        margin-left:30px;
+        margin-bottom:20px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    fieldset{
+        border:none;
+        display:flex;
+        flex-direction: column;
+    
+    }
+    #submit{
+        background-color: grey;
+        color:white;
+        padding: 10px;
+    }
+}

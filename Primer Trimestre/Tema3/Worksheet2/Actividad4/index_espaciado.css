@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ol li{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+ul.square{
+    list-style-type: square;
+    background-color: #ffff5f;
+}
+
+ul.square li{
+    background-color: gray;
+}
+
+ul.imagen{
+    list-style-type: url('viñeta.jpg');
+}

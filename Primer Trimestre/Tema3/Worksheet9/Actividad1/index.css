@@ -1,0 +1,8 @@
+.media{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.media:nth-child(1){
+    flex-direction: row;
+}

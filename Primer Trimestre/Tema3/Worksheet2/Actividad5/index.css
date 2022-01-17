@@ -1,0 +1,15 @@
+.hermano + .padre div {
+    font-size: xx-large;
+    margin-left: 60px;
+}
+/*Se le aplica a los div que están dentro de padre y debajo de .hermano*/
+div#diva ~ p {
+background-color:lightgreen;
+}
+/*Se aplica a todos los adyacentes de tipo párrafo que estén por debajo*/
+div#diva + p {
+background-color:lightgreen;
+}
+div#diva p {
+background-color:lightgreen;
+}

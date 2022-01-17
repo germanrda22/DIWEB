@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<h1>Formulario de registro</h1>
+		<form>
+			<fieldset>
+				<legend>¿QUIEN ERES?</legend>
+				<label for="nombre">Nombre</label><br>
+				<input type="text" name="nombre" id="nombre" required> <br>
+				<label for="apellidos">Apellidos</label><br>
+				<input type="text" name="apellidos" id="apellidos" required><br>
+				<label for="correo">Correo electronico</label><br>
+				<input type="text" name="correo" size="20" required pattern=".+@gmail\.com"><br>
+				<label>Fecha de nacimiento</label><br>
+				<select>
+					<option>Dia</option><option>------</option><option>1</option><option>2</option>
+				</select>
+				<select>
+					<option>Mes</option><option>------</option><option>1</option><option>2</option>
+				</select>
+				<select>
+					<option>Año</option><option>------</option><option>1</option><option>2</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>¿DE DONDE ERES?</legend>
+				<label for="ciudad">Ciudad</label><br>
+				<input type="text" name="ciudad" id="ciudad"><br>
+				<label for="postal">Código Postal</label><br>
+				<input type="number" name="postal" id="postal" size = 5 maxlength="5"><br>
+				<label>Pais</label><br>
+				<select>
+					<option>Pais</option><option>------</option><option>1</option><option>2</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>¿COMO QUIERES INICIAR SESION?</legend>
+				<label>Nombre de usuario</label><br>
+				<input type="text" name="usuario" required><br>
+				<label>Contraseña</label><br>
+				<input type="password" name="contraseña" required><br>
+				<label>Vuelva a escribir la contraseña</label><br>
+				<input type="password" name="recontraseña" required><br>
+			</fieldset>
+			<fieldset>
+				<legend>CONDICIONES DE USO</legend>
+				Deseo recibir ofertas de MI Revista<br>
+				<input type="radio" name="cuando"><label>Una vez al dia</label>
+				<input type="radio" name="cuando"><label>Una vez a la semana</label>
+				<input type="radio" name="cuando"><label>Una vez al mes</label><br>
+				<input type="checkbox" name="marcar" required>
+				<label>Acepto el acuerdo de servicios, la declaracion de privacidad y la
+					declaracion de uso de cookies</label>
+			</fieldset><br>
+			<center>
+				<button>Crear</button>
+			</center>
+		</form>
+	</body>
+</html>

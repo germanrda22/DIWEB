@@ -1,0 +1,35 @@
+ul.lista{
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.lista li:nth-child(odd){
+    background-color: #DDD;
+    color: #777;
+}
+
+ul.lista li:nth-child(even){
+    background-color: #666;
+    color: #fff;
+}
+
+li{
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: green;
+}

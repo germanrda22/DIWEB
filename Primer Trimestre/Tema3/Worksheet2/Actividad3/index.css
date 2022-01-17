@@ -1,0 +1,17 @@
+li:first-child{
+    color:blue;
+    font-size:12pt;
+}
+li:nth-of-type(2){
+    font-size:12pt;
+}
+li:nth-of-type(3){
+    font-size: 20pt;
+}
+li:nth-last-of-type(2){
+    font-size:26pt;
+}
+li:nth-last-of-type(1){
+    font-size:30pt;
+    color:blue;
+}
